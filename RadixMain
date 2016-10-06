@@ -1,0 +1,12 @@
+public class RadixMain{
+/*
+ *十进制整数转化为其他进制
+ *2016/10/8
+ *武大图书馆
+ */
+  public static void main(String[] args){
+    System.out.println(Integer.toBinaryString(250);
+    System.out.println(Integer.toHexString(250);
+    System.out.println(Integer.toOctalString(250);
+    }
+}
