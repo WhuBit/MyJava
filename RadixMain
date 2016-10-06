@@ -1,12 +1,19 @@
 public class RadixMain{
 /*
- *十进制整数转化为其他进制
+ *进制转换
  *2016/10/8
  *武大图书馆
  */
   public static void main(String[] args){
+   //十进制转其他进制
     System.out.println(Integer.toBinaryString(250);
     System.out.println(Integer.toHexString(250);
     System.out.println(Integer.toOctalString(250);
+    
+    //其他进制转化为十进制
+    System.out.println(Integer.parse("11010110",2));
+	System.out.println(Integer.parse("250",8));
+	System.out.println(Integer.parse("250",16));
+	//即Integer.parse(“要转化的数字”，该数字的进制)
     }
 }
